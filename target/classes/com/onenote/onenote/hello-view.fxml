@@ -17,7 +17,7 @@
          <children>
             <ImageView cache="true" fitHeight="117.0" fitWidth="107.0" layoutX="39.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="https://i.postimg.cc/0j0mQbWQ/e-book.png" />
+                  <Image url="https://i.ibb.co/x8V6mw6/e-book.png" />
                </image>
             </ImageView>
             <Text fill="WHITE" layoutX="38.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OneNote" textAlignment="CENTER">
@@ -27,7 +27,7 @@
             </Text>
             <ImageView fitHeight="36.0" fitWidth="42.0" layoutX="82.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="https://i.ibb.co/x8V6mw6/e-book.png" />
+                  <Image url="https://i.ibb.co/f9xtgjL/shield.png" />
                </image>
             </ImageView>
          </children>
