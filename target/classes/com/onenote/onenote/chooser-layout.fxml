@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.onenote.onenote.ChooserController">
+   <children>
+      <ImageView fitHeight="130.0" fitWidth="152.0" layoutX="35.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="https://i.ibb.co/tM1qGBB/whiteboard-1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="130.0" fitWidth="152.0" layoutX="238.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="https://i.ibb.co/WB1TsGY/essay.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="130.0" fitWidth="152.0" layoutX="406.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="https://i.ibb.co/N3Y85z0/list.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="whiteBoardButton" layoutX="70.0" layoutY="281.0" mnemonicParsing="false" onAction="#whiteBoardAction" text="White Board" />
+      <Button fx:id="notesListButton" layoutX="445.0" layoutY="281.0" mnemonicParsing="false" onAction="#notesListAction" text="Notes List" />
+      <Button fx:id="todoListButton" layoutX="273.0" layoutY="281.0" mnemonicParsing="false" onAction="#todoListAction" text="Todo List" />
+      <Label layoutX="162.0" layoutY="44.0" text="What would you like to try?">
+         <font>
+            <Font name="Modern No. 20" size="26.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

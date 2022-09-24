@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<Pane  maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.onenote.onenote.WhiteboardController">
+   <children>
+      <VBox prefHeight="50.0" prefWidth="1280.0">
+         <children>
+            <HBox prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <ColorPicker fx:id="colorPicker" promptText="Choose color">
+                     <padding>
+                        <Insets left="10.0" right="10.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="17.0" />
+                     </HBox.margin>
+                  </ColorPicker>
+                  <TextField fx:id="brushSize" promptText="Enter brush size">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="17.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Button fx:id="brush" mnemonicParsing="false" onAction="#brushSubmit" text="Brush">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="17.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Canvas fx:id="canva" height="690.0" layoutY="53.0" width="1280.0" />
+   </children>
+</Pane>

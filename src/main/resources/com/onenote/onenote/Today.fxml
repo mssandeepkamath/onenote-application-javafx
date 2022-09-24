@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="636.0" prefWidth="738.0" style="-fx-background-color: WHITE;" xmlns:fx="http://javafx.com/fxml/1"  fx:controller="com.onenote.onenote.Todo.Today">
+    <children>
+        <BorderPane prefHeight="636.0" prefWidth="738.0" style="-fx-background-color: White;">
+            <left>
+                <Pane prefHeight="636.0" prefWidth="508.0" style="-fx-background-color: WHITE;" BorderPane.alignment="CENTER">
+                    <children>
+                        <Label layoutX="38.0" layoutY="39.0" text="Today Task">
+                            <font>
+                                <Font name="System Bold" size="24.0" />
+                            </font>
+                        </Label>
+                        <ListView fx:id="todoSDesView" layoutX="38.0" layoutY="104.0" prefHeight="500.0" prefWidth="304.0" style="-fx-background-color: WHITE;" />
+                        <Separator layoutX="39.0" layoutY="76.0" prefHeight="0.0" prefWidth="421.0" />
+                        <ListView fx:id="todoactivityView" layoutX="345.0" layoutY="104.0" prefHeight="500.0" prefWidth="123.0" style="-fx-background-color: WHITE;" />
+                    </children>
+                </Pane>
+            </left>
+            <right>
+                <Pane prefHeight="636.0" prefWidth="215.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <Label layoutX="18.0" layoutY="36.0" text="Upcomming Task">
+                            <font>
+                                <Font name="Arial Bold" size="18.0" />
+                            </font>
+                        </Label>
+                        <Pane layoutX="17.0" layoutY="76.0" prefHeight="123.0" prefWidth="179.0" style="-fx-background-color: #e5f7c3; -fx-background-radius: 20px;" />
+                        <Pane layoutX="17.0" layoutY="216.0" prefHeight="123.0" prefWidth="179.0" style="-fx-background-color: #cafaf4; -fx-background-radius: 20px;" />
+                        <Pane layoutX="20.0" layoutY="360.0" prefHeight="123.0" prefWidth="179.0" style="-fx-background-color: F0EBD8; -fx-background-radius: 20px;" />
+                        <Pane layoutX="20.0" layoutY="499.0" prefHeight="123.0" prefWidth="179.0" style="-fx-background-color: #E5EAEF; -fx-background-radius: 20px;" />
+                    </children>
+                </Pane>
+            </right>
+        </BorderPane>
+    </children>
+</Pane>

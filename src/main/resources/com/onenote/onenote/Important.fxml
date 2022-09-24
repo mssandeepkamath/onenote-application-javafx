@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane fx:controller="com.onenote.onenote.Todo.Important"
+      prefHeight="636.0" prefWidth="738.0" style="-fx-background-color: WHITE;" xmlns:fx="http://javafx.com/fxml/1"  >
+    <children>
+        <BorderPane prefHeight="636.0" prefWidth="738.0" style="-fx-background-color: White;">
+            <center>
+                <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <Label layoutX="38.0" layoutY="39.0" text="Important">
+                            <font>
+                                <Font name="System Bold" size="24.0" />
+                            </font>
+                        </Label>
+                        <ListView fx:id="todoSDesView" layoutX="38.0" layoutY="93.0" prefHeight="458.0" prefWidth="482.0" style="-fx-background-color: WHITE;" />
+                        <Separator layoutX="38.0" layoutY="77.0" prefHeight="6.0" prefWidth="660.0" />
+                        <HBox layoutX="37.0" layoutY="577.0" prefHeight="23.0" prefWidth="676.0">
+                            <children>
+                                <Label style="-fx-background-color: white" text="Due: ">
+                                    <font>
+                                        <Font name="Times New Roman bold" size="20" />
+                                    </font>
+                                </Label>
+                                <Label fx:id="deadlineLabel" style="-fx-background-color: white">
+                                    <font>
+                                        <Font name="Times New Roman bold" size="20" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </HBox>
+                        <ListView fx:id="todoActivity" layoutX="524.0" layoutY="93.0" prefHeight="458.0" prefWidth="174.0" style="-fx-background-color: WHITE;" />
+                    </children>
+                </Pane>
+            </center>
+        </BorderPane>
+    </children>
+</Pane>

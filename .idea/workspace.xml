@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1d713270-99b9-49a1-ad9e-f93e313c3b2a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoListItems.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoListOtherItems.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/AlertHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/ChooserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Dashboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Data/OtherData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Data/OtherItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Data/TodoData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Data/TodoItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/LocalEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Todo/Addnew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Todo/Important.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Todo/Inbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Todo/Someday.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Todo/Today.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Todo/Trash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Todo/Upcomming.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/TodoListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Util/EventSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/WhiteboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Style/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/Addnew.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/Important.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/Inbox.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/Someday.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/Today.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/Trash.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/Upcoming.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/chooser-layout.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/todo-list.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/todo.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/white-board.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/Exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/Inbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/Maximize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/Minimize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/Today.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/Trash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/e-book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/icons8_delete_sign_50px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/important.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/loginclose.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/shield.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/target.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/upcomming.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2F43kGkrTsmS4esg3j7YGgJjthf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/mssan/OneDrive/Desktop/OneNoteApplication",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.externalResources"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.onenote.onenote.HelloApplication" />
+      <module name="OneNote" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.onenote.onenote.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d713270-99b9-49a1-ad9e-f93e313c3b2a" name="Changes" comment="" />
+      <created>1663737671908</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663737671908</updated>
+      <workItem from="1663737675125" duration="5907000" />
+      <workItem from="1663745529758" duration="1202000" />
+      <workItem from="1663824070088" duration="20000" />
+      <workItem from="1663997587079" duration="1530000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

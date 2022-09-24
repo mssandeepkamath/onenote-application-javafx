@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #EAF6F6;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.onenote.onenote.HelloController">
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #32026B;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView cache="true" fitHeight="117.0" fitWidth="107.0" layoutX="39.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://i.postimg.cc/0j0mQbWQ/e-book.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="38.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OneNote" textAlignment="CENTER">
+               <font>
+                  <Font name="Segoe Script" size="28.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="36.0" fitWidth="42.0" layoutX="82.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://i.ibb.co/x8V6mw6/e-book.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane disable="false" prefHeight="400.0" prefWidth="403.0" style="-fx-background-color: #EAF6F6;" BorderPane.alignment="CENTER">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <Text layoutX="38.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign In" textAlignment="CENTER" wrappingWidth="118.93647003173828" AnchorPane.rightAnchor="243.06352996826172" AnchorPane.topAnchor="67.22265625">
+               <font>
+                  <Font name="Segoe UI Black" size="26.0" />
+               </font>
+            </Text>
+            <Text layoutX="58.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email ID:" wrappingWidth="79.431640625">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="58.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" wrappingWidth="79.431640625">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font>
+            </Text>
+            <PasswordField fx:id="passwordTextField" layoutX="58.0" layoutY="223.0" prefHeight="40.0" prefWidth="287.0" promptText="Password" />
+            <BorderPane layoutX="58.0" layoutY="125.0">
+               <center>
+                  <BorderPane />
+               </center>
+            </BorderPane>
+            <TextField fx:id="emailTextField" layoutX="58.0" layoutY="140.0" prefHeight="40.0" prefWidth="287.0" promptText="Email id" />
+            <JFXButton fx:id="ProceedButtonView" layoutX="202.0" layoutY="288.0" onAction="#proceedOnClick" prefHeight="29.0" prefWidth="144.0" ripplerFill="#eaf6f6" style="-fx-background-color: #32026B;" text="Proceed" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </AnchorPane>
+   </right>
+</BorderPane>

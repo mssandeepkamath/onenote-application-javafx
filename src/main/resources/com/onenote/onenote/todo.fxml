@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="window" prefHeight="664.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.onenote.onenote.Dashboard">
+   <left>
+      <Pane prefHeight="664.0" prefWidth="262.0" style="-fx-background-color: E9E9E9;" stylesheets="../../../Style/style.css" BorderPane.alignment="CENTER">
+         <children>
+            <VBox layoutX="59.0" layoutY="36.0" prefHeight="240.0" prefWidth="189.0" spacing="15.0">
+               <children>
+                   <JFXButton alignment="TOP_LEFT" buttonType="RAISED" onAction="#Inbox" prefHeight="25.0" prefWidth="173.0" text="Inbox">
+                       <font>
+                           <Font name="System Bold" size="12.0" />
+                       </font>
+                       <graphic>
+                           <ImageView fitHeight="17.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+                               <image>
+                                   <Image url="@../../../drawable/Inbox.png" />
+                               </image>
+                           </ImageView>
+                       </graphic>
+                   </JFXButton>
+                   <JFXButton alignment="TOP_LEFT" buttonType="RAISED" onAction="#Today" prefHeight="25.0" prefWidth="173.0" text="Today">
+                       <font>
+                           <Font name="System Bold" size="12.0" />
+                       </font>
+                       <graphic>
+                           <ImageView fitHeight="17.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+                               <image>
+                                   <Image url="@../../../drawable/Today.png" />
+                               </image>
+                           </ImageView>
+                       </graphic>
+                   </JFXButton>
+                   <JFXButton alignment="TOP_LEFT" buttonType="RAISED" onAction="#Upcomming" prefHeight="25.0" prefWidth="173.0" text="Upcoming">
+                       <font>
+                           <Font name="System Bold" size="12.0" />
+                       </font>
+                       <graphic>
+                           <ImageView fitHeight="17.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+                               <image>
+                                   <Image url="@../../../drawable/upcomming.png" />
+                               </image>
+                           </ImageView>
+                       </graphic>
+                   </JFXButton>
+                   <JFXButton alignment="TOP_LEFT" buttonType="RAISED" onAction="#Important" prefHeight="25.0" prefWidth="173.0" text="Important">
+                       <font>
+                           <Font name="System Bold" size="12.0" />
+                       </font>
+                       <graphic>
+                           <ImageView fitHeight="17.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+                               <image>
+                                   <Image url="@../../../drawable/important.png" />
+                               </image>
+                           </ImageView>
+                       </graphic>
+                   </JFXButton>
+                   <JFXButton alignment="TOP_LEFT" buttonType="RAISED" onAction="#Someday" prefHeight="25.0" prefWidth="173.0" text="Someday">
+                       <font>
+                           <Font name="System Bold" size="12.0" />
+                       </font>
+                       <graphic>
+                           <ImageView fitHeight="17.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+                               <image>
+                                   <Image url="@../../../drawable/target.png" />
+                               </image>
+                           </ImageView>
+                       </graphic>
+                   </JFXButton>
+                   <JFXButton alignment="TOP_LEFT" buttonType="RAISED" onAction="#Trash" prefHeight="25.0" prefWidth="173.0" text="Trash">
+                       <font>
+                           <Font name="System Bold" size="12.0" />
+                       </font>
+                       <graphic>
+                           <ImageView fitHeight="17.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+                               <image>
+                                   <Image url="@../../../drawable/Trash.png" />
+                               </image>
+                           </ImageView>
+                       </graphic>
+                   </JFXButton>
+               </children>
+                <padding>
+                    <Insets top="15.0" />
+                </padding>
+                <opaqueInsets>
+                    <Insets />
+                </opaqueInsets>
+            </VBox>
+             <ListView layoutX="31.0" layoutY="343.0" prefHeight="207.0" prefWidth="200.0" style="-fx-background-color: E9E9E9;" />
+             <Label layoutX="31.0" layoutY="311.0" text="Intent" textFill="#6ad02e">
+                 <font>
+                     <Font name="System Bold" size="18.0" />
+                 </font>
+             </Label>
+             <JFXButton buttonType="RAISED" layoutX="32.0" layoutY="570.0" onAction="#Addnew" prefHeight="52.0" prefWidth="59.0" style="-fx-background-color: #4DBCFF; -fx-background-radius: 10px;" text="+" textFill="WHITE">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </JFXButton>
+             </children>
+      </Pane>
+   </left>
+    <top>
+        <Pane prefHeight="28.0" prefWidth="988.0" style="-fx-background-color: White; -fx-alignment: center;" styleClass="Top-Pane" BorderPane.alignment="CENTER">
+            <children>
+                <FlowPane hgap="5.0" layoutX="4.0" layoutY="5.0" prefHeight="17.0" prefWidth="67.0">
+                    <children>
+                        <ImageView fx:id="Exit" fitHeight="17.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../drawable/Exit.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fx:id="Minimize" fitHeight="17.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../drawable/Minimize.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fx:id="Maximize" fitHeight="17.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../drawable/Maximize.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </FlowPane>
+                <Label contentDisplay="CENTER" layoutX="508.0" layoutY="5.0" text="Todo List">
+                    <font>
+                        <Font name="Arial" size="14.0" />
+                    </font>
+                </Label>
+            </children></Pane>
+    </top>
+    <center>
+        <AnchorPane>
+            <StackPane fx:id="contentArea" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+        </AnchorPane>
+    </center>
+   <right>
+      <VBox prefHeight="636.0" prefWidth="201.0" BorderPane.alignment="CENTER" />
+   </right>
+</BorderPane>
