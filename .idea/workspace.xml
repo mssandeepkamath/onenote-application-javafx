@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d713270-99b9-49a1-ad9e-f93e313c3b2a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/ChooserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/ChooserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/ChooserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/ChooserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/HelloApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/HelloApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/HelloController$AlertHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/HelloController$AlertHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/HelloController.class" afterDir="false" />
-    </list>
+    <list default="true" id="1d713270-99b9-49a1-ad9e-f93e313c3b2a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +79,7 @@
       <workItem from="1663824070088" duration="20000" />
       <workItem from="1663997587079" duration="1530000" />
       <workItem from="1663999722095" duration="8817000" />
-      <workItem from="1664090678828" duration="793000" />
+      <workItem from="1664090678828" duration="830000" />
     </task>
     <servers />
   </component>
