@@ -6,19 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1d713270-99b9-49a1-ad9e-f93e313c3b2a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Data/OtherData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Data/OtherItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Data/TodoData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Data/TodoItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Todo/Addnew.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Todo/Important.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Todo/Inbox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Todo/Someday.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Todo/Today.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Todo/Trash.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Todo/Upcomming.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +73,7 @@
       <workItem from="1663745529758" duration="1202000" />
       <workItem from="1663824070088" duration="20000" />
       <workItem from="1663997587079" duration="1530000" />
-      <workItem from="1663999722095" duration="627000" />
+      <workItem from="1663999722095" duration="1856000" />
     </task>
     <servers />
   </component>

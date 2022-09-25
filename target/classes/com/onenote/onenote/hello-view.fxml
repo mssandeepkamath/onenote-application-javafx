@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import com.jfoenix.controls.JFXButton?>
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import io.github.palexdev.materialfx.controls.MFXPasswordField?>
+<?import io.github.palexdev.materialfx.controls.MFXTextField?>
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.control.PasswordField?>
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -25,7 +25,7 @@
                   <Font name="Segoe Script" size="28.0" />
                </font>
             </Text>
-            <ImageView fitHeight="36.0" fitWidth="42.0" layoutX="82.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="42.0" fitWidth="44.0" layoutX="82.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="https://i.ibb.co/f9xtgjL/shield.png" />
                </image>
@@ -33,43 +33,43 @@
          </children>
       </AnchorPane>
    </left>
-   <right>
+   <center>
       <AnchorPane disable="false" prefHeight="400.0" prefWidth="403.0" style="-fx-background-color: #EAF6F6;" BorderPane.alignment="CENTER">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
          <children>
-            <Text layoutX="38.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign In" textAlignment="CENTER" wrappingWidth="118.93647003173828" AnchorPane.rightAnchor="243.06352996826172" AnchorPane.topAnchor="67.22265625">
+            <Text layoutX="47.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign in to experience OneNote" textAlignment="CENTER" wrappingWidth="325.6030807495117" AnchorPane.rightAnchor="27.39691925048828" AnchorPane.topAnchor="36.0">
                <font>
-                  <Font name="Segoe UI Black" size="26.0" />
+                  <Font name="Serif Regular" size="26.0" />
                </font>
             </Text>
-            <Text layoutX="58.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email ID:" wrappingWidth="79.431640625">
-               <font>
-                  <Font name="Segoe UI" size="12.0" />
-               </font>
-            </Text>
-            <Text layoutX="58.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" wrappingWidth="79.431640625">
+            <Text layoutX="57.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email ID:" wrappingWidth="79.431640625">
                <font>
                   <Font name="Segoe UI" size="12.0" />
                </font>
             </Text>
-            <PasswordField fx:id="passwordTextField" layoutX="58.0" layoutY="223.0" prefHeight="40.0" prefWidth="287.0" promptText="Password" />
+            <Text layoutX="57.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" wrappingWidth="79.431640625">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font>
+            </Text>
             <BorderPane layoutX="58.0" layoutY="125.0">
                <center>
                   <BorderPane />
                </center>
             </BorderPane>
-            <TextField fx:id="emailTextField" layoutX="58.0" layoutY="140.0" prefHeight="40.0" prefWidth="287.0" promptText="Email id" />
-            <JFXButton fx:id="ProceedButtonView" layoutX="202.0" layoutY="288.0" onAction="#proceedOnClick" prefHeight="29.0" prefWidth="144.0" ripplerFill="#eaf6f6" style="-fx-background-color: #32026B;" text="Proceed" textAlignment="CENTER" textFill="WHITE">
+            <MFXButton fx:id="ProceedButtonView" buttonType="RAISED" depthLevel="LEVEL5" layoutX="203.0" layoutY="300.0" onAction="#proceedOnClick" prefHeight="36.0" prefWidth="141.0" rippleAnimateShadow="true" rippleColor="#edfffa" rippleRadius="50.0" style="-fx-background-color: #32026B;" text="Proceed" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
-            </JFXButton>
+            </MFXButton>
+            <MFXPasswordField fx:id="passwordTextField" allowCopy="true" allowCut="true" allowPaste="true" floatingText="Enter Password" layoutX="58.0" layoutY="217.0" prefHeight="14.0" prefWidth="289.0" />
+            <MFXTextField fx:id="emailTextField" floatingText="Enter Email" layoutX="56.0" layoutY="125.0" prefHeight="32.0" prefWidth="287.0" />
          </children>
          <BorderPane.margin>
             <Insets />
          </BorderPane.margin>
       </AnchorPane>
-   </right>
+   </center>
 </BorderPane>
