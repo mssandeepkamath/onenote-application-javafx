@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import io.github.palexdev.materialfx.controls.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.image.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import io.github.palexdev.materialfx.controls.MFXTreeView?>
+<?import javafx.scene.AmbientLight?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #EAF6F6;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.onenote.onenote.ChooserController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #EAF6F6;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.onenote.onenote.ChooserController">
    <children>
-      <MFXTreeView layoutX="35.0" layoutY="134.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="211.0" prefWidth="531.0" style="-fx-background-color: #EAF6F6;" thumbHoverColor="#eaf6f6" />
-      <Label layoutX="154.0" layoutY="58.0" text="What would you like to try?">
+      <MFXTreeView layoutX="35.0" layoutY="134.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="211.0" prefWidth="531.0" style="-fx-background-color: #EAF6F6;" thumbHoverColor="#eaf6f6"/>
+
+      <Label layoutX="154.0" layoutY="87.0" text="What would you like to try?">
          <font>
             <Font name="Modern No. 20" size="26.0" />
          </font>
@@ -38,10 +42,14 @@
             <Image url="https://i.ibb.co/WB1TsGY/essay.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="78.0" fitWidth="78.0" layoutX="440.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="91.0" fitWidth="78.0" layoutX="440.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="https://i.ibb.co/N3Y85z0/list.png" />
          </image>
       </ImageView>
+      <MFXButton fx:id="logout"  onAction="#logoutAction" layoutX="14.0" layoutY="14.0" prefHeight="33.0" prefWidth="78.0" style="-fx-background-color: #32026B;" text="&lt;- Log out" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font></MFXButton>
    </children>
 </Pane>
