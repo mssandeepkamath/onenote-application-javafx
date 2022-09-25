@@ -31,6 +31,7 @@ public class HelloController {
             Stage window = (Stage) ProceedButtonView.getScene().getWindow();
             Parent pane = FXMLLoader.load(
                     getClass().getResource("chooser-layout.fxml"));
+            window.setResizable(false);
             window.getScene().setRoot(pane);
         }
         else
