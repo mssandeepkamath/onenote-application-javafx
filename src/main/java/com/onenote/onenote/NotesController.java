@@ -9,7 +9,7 @@ import java.net.URL;
 import java.time.LocalDate;
 import java.util.ResourceBundle;
 
-public class TodoListController implements Initializable {
+public class NotesController implements Initializable {
 
     @FXML private Button addEventButton;
     @FXML private DatePicker datePicker;

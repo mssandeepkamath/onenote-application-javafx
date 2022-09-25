@@ -137,6 +137,15 @@ public class Addnew implements Initializable {
                     OtherData.getInstance().addOtherItem(new OtherItem(shortDescription, Details, Category, deadValue));
 
 
+                }else if(Category1.equals("Approved")){
+                    String shortDescription = Description.getText();
+                    String Details = DetailsArea.getText();
+                    String Category = Categories.getValue().toString();
+                    LocalDate deadValue = Deadline.getValue();
+
+
+                    TodoData.getInstance().addTodoItem(new TodoItem(shortDescription, Details, Category, deadValue));
+
                 }
 
                 cleartext();

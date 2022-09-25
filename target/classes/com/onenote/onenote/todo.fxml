@@ -20,18 +20,6 @@
          <children>
             <VBox layoutX="59.0" layoutY="36.0" prefHeight="240.0" prefWidth="189.0" spacing="15.0">
                <children>
-                   <JFXButton alignment="TOP_LEFT" buttonType="RAISED" onAction="#Inbox" prefHeight="25.0" prefWidth="173.0" text="Inbox">
-                       <font>
-                           <Font name="System Bold" size="12.0" />
-                       </font>
-                       <graphic>
-                           <ImageView fitHeight="17.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
-                               <image>
-                                   <Image url="@../../../drawable/Inbox.png" />
-                               </image>
-                           </ImageView>
-                       </graphic>
-                   </JFXButton>
                    <JFXButton alignment="TOP_LEFT" buttonType="RAISED" onAction="#Today" prefHeight="25.0" prefWidth="173.0" text="Today">
                        <font>
                            <Font name="System Bold" size="12.0" />

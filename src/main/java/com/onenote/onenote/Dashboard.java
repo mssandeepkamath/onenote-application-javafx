@@ -54,12 +54,15 @@ public class Dashboard implements Initializable {
 
         Exit.setOnMouseClicked(e -> {
             try{
-                TodoData.getInstance().storeTodoItems();
-                OtherData.getInstance().storeOtherItems();
+                Stage window = (Stage) contentArea.getScene().getWindow();
+                Parent pane = FXMLLoader.load(getClass().getResource("chooser-layout.fxml"));
+                window.setResizable(false);
+                window.setHeight(400);
+                window.setWidth(600);
+                window.getScene().setRoot(pane);
             }catch (IOException exception){
                 System.out.println(exception.getMessage());
             }
-            System.exit(0);
 
         });
         Minimize.setOnMouseClicked(e -> {
