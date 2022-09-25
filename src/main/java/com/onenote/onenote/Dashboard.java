@@ -56,9 +56,8 @@ public class Dashboard implements Initializable {
             try{
                 Stage window = (Stage) contentArea.getScene().getWindow();
                 Parent pane = FXMLLoader.load(getClass().getResource("chooser-layout.fxml"));
+                window.setMaximized(false);
                 window.setResizable(false);
-                window.setHeight(400);
-                window.setWidth(600);
                 window.getScene().setRoot(pane);
             }catch (IOException exception){
                 System.out.println(exception.getMessage());
