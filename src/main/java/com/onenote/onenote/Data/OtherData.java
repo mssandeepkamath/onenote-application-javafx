@@ -25,8 +25,9 @@ public class OtherData {
         return instance;
     }
 
-    private OtherData() {
+    public OtherData() {
         formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+        OtherItems=FXCollections.observableArrayList();
     }
 
     public ObservableList<OtherItem> getOtherItems() {
@@ -61,8 +62,6 @@ public class OtherData {
                 LocalDate date = LocalDate.parse(dateString, formatter);
                 OtherItem OtherItem = new OtherItem(shortDescription, details, category, date);
                 OtherItems.add(OtherItem);
-
-
 
             }
 

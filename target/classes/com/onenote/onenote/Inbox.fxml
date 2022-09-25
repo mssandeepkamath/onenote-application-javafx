@@ -6,7 +6,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<Pane fx:controller="com.onenote.onenote.Todo.Inbox"
+<Pane fx:controller="com.onenote.onenote.Inbox"
             prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: WHITE;" xmlns="http://javafx.com/javafx"
       xmlns:fx="http://javafx.com/fxml"
 >

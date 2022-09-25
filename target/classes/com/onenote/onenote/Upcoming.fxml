@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane prefHeight="636.0" prefWidth="738.0" style="-fx-background-color: WHITE;" xmlns:fx="http://javafx.com/fxml/1"  fx:controller="com.onenote.onenote.Todo.Upcomming">
+<Pane prefHeight="636.0" prefWidth="738.0" style="-fx-background-color: WHITE;" xmlns:fx="http://javafx.com/fxml/1"  fx:controller="com.onenote.onenote.Upcomming">
     <children>
         <BorderPane prefHeight="636.0" prefWidth="738.0" style="-fx-background-color: White;">
             <center>

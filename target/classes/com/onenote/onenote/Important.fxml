@@ -14,7 +14,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<Pane fx:controller="com.onenote.onenote.Todo.Important"
+<Pane fx:controller="com.onenote.onenote.Important"
       prefHeight="636.0" prefWidth="738.0" style="-fx-background-color: WHITE;" xmlns:fx="http://javafx.com/fxml/1"  >
     <children>
         <BorderPane prefHeight="636.0" prefWidth="738.0" style="-fx-background-color: White;">

@@ -1,5 +1,6 @@
 package com.onenote.onenote.Data;
 
+import javafx.beans.Observable;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
@@ -18,14 +19,18 @@ public class TodoData {
     private static String filename = "TodoListItems.txt";
 
     private ObservableList<TodoItem> todoItems;
+
+
     private DateTimeFormatter formatter;
 
     public static TodoData getInstance() {
         return instance;
     }
 
-    private TodoData() {
+
+    public TodoData() {
         formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+        todoItems=FXCollections.observableArrayList();
     }
 
     public ObservableList<TodoItem> getTodoItems() {

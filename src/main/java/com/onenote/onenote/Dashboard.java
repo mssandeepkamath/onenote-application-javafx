@@ -9,6 +9,7 @@ import javafx.scene.Scene;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.StackPane;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import com.onenote.onenote.Data.OtherData;
@@ -151,7 +152,21 @@ public class Dashboard implements Initializable {
 
     @FXML
     void Addnew(ActionEvent event) throws Exception {
-        Addnewpage();
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Add-new.fxml"));
+            Parent root1 = (Parent) fxmlLoader.load();
+            Stage stage = new Stage();
+            stage.initModality(Modality.APPLICATION_MODAL);
+            stage.initStyle(StageStyle.UNDECORATED);
+            stage.setTitle("Add new task");
+            stage.setScene(new Scene(root1));
+            stage.show();
+        }
+        catch(Exception e)
+        {
+            System.out.println(e);
+        }
+
     }
     double x,y = 0;
     public void Addnewpage()throws Exception{

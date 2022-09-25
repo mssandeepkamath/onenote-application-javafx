@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.onenote.onenote.TodoListController">
+<top>
+    <Pane prefHeight="28.0" prefWidth="988.0" style="-fx-background-color: White; -fx-alignment: center;" styleClass="Top-Pane" BorderPane.alignment="CENTER">
+        <children>
+            <FlowPane hgap="5.0" layoutX="4.0" layoutY="5.0" prefHeight="17.0" prefWidth="67.0">
+                <children>
+                    <ImageView fx:id="Exit" fitHeight="17.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@../../../drawable/Exit.png" />
+                        </image>
+                    </ImageView>
+                    <ImageView fx:id="Minimize" fitHeight="17.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@../../../drawable/Minimize.png" />
+                        </image>
+                    </ImageView>
+                    <ImageView fx:id="Maximize" fitHeight="17.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@../../../drawable/Maximize.png" />
+                        </image>
+                    </ImageView>
+                </children>
+            </FlowPane>
+            <Label contentDisplay="CENTER" layoutX="281.0" layoutY="6.0" text="Notes">
+                <font>
+                    <Font name="Arial" size="14.0" />
+                </font>
+            </Label>
+        </children></Pane>
+</top></BorderPane>
