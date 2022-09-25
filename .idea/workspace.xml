@@ -6,6 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="1d713270-99b9-49a1-ad9e-f93e313c3b2a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+
+      <change beforePath="$PROJECT_DIR$/TodoListItems.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TodoListItems.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoListOtherItems.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TodoListOtherItems.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Dashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/Today.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/Today.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Dashboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Dashboard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Today.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Today.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/ChooserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/ChooserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/WhiteboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/WhiteboardController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/chooser-layout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/chooser-layout.fxml" afterDir="false" />
@@ -13,6 +20,7 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/WhiteboardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/WhiteboardController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/chooser-layout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/chooser-layout.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/white-board.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/white-board.fxml" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,9 +79,9 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="com.onenote.onenote.HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.onenote.onenote.HelloApplication" />
-      <module name="OneNote" />
+      <module name="OnenoteApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.onenote.onenote.*" />
@@ -86,7 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.onenote.onenote.HelloApplication" />
+        <item itemvalue="Application.HelloApplication" />
       </list>
     </recent_temporary>
   </component>

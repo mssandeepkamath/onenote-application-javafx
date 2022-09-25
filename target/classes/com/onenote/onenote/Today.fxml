@@ -5,9 +5,10 @@
 <?import javafx.scene.control.Separator?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<Pane prefHeight="636.0" prefWidth="738.0" style="-fx-background-color: WHITE;" xmlns:fx="http://javafx.com/fxml/1"  fx:controller="com.onenote.onenote.Today">
+<Pane prefHeight="636.0" prefWidth="738.0" style="-fx-background-color: WHITE;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="com.onenote.onenote.Today">
     <children>
         <BorderPane prefHeight="636.0" prefWidth="738.0" style="-fx-background-color: White;">
             <left>
@@ -25,18 +26,54 @@
                 </Pane>
             </left>
             <right>
-                <Pane prefHeight="636.0" prefWidth="215.0" BorderPane.alignment="CENTER">
+                <Pane prefHeight="636.0" prefWidth="250.0" BorderPane.alignment="CENTER">
                     <children>
-                        <Label layoutX="18.0" layoutY="36.0" text="Upcomming Task">
+                        <Label layoutX="39.0" layoutY="37.0" text="Motivational Quotes">
                             <font>
                                 <Font name="Arial Bold" size="18.0" />
                             </font>
                         </Label>
-                        <Pane layoutX="17.0" layoutY="76.0" prefHeight="123.0" prefWidth="179.0" style="-fx-background-color: #e5f7c3; -fx-background-radius: 20px;" />
-                        <Pane layoutX="17.0" layoutY="216.0" prefHeight="123.0" prefWidth="179.0" style="-fx-background-color: #cafaf4; -fx-background-radius: 20px;" />
-                        <Pane layoutX="20.0" layoutY="360.0" prefHeight="123.0" prefWidth="179.0" style="-fx-background-color: F0EBD8; -fx-background-radius: 20px;" />
-                        <Pane layoutX="20.0" layoutY="499.0" prefHeight="123.0" prefWidth="179.0" style="-fx-background-color: #E5EAEF; -fx-background-radius: 20px;" />
+                        <Pane layoutX="17.0" layoutY="76.0" prefHeight="125.0" prefWidth="213.0" style="-fx-background-color: #e5f7c3; -fx-background-radius: 20px;">
+                     <children>
+                        <VBox prefHeight="121.0" prefWidth="214.0">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="91.0" prefWidth="218.0" text="&quot;It's fine to celebrate success &#10;but it is more important to &#10;heed the lessons of failure.&quot;">
+                                 <font>
+                                    <Font name="System Bold Italic" size="13.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="BOTTOM_RIGHT" contentDisplay="RIGHT" prefHeight="22.0" prefWidth="203.0" text="-Bill Gates" />
+                           </children>
+                        </VBox>
+                     </children></Pane>
+                        <Pane layoutX="17.0" layoutY="216.0" prefHeight="172.0" prefWidth="213.0" style="-fx-background-color: #cafaf4; -fx-background-radius: 20px;">
+                     <children>
+                        <VBox prefHeight="169.0" prefWidth="214.0">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="126.0" prefWidth="214.0" text="&quot;The biggest risk is not taking &#10;any risk...In a world that is &#10;changing really quickly, the&#10;only strategy that is &#10;guaranteed to fail is &#10;not taking risks.&quot;" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold Italic" size="13.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="BOTTOM_RIGHT" contentDisplay="RIGHT" prefHeight="22.0" prefWidth="203.0" text="-Mark Zuckerberg" />
+                           </children>
+                        </VBox>
+                     </children></Pane>
+                        <Pane layoutX="19.0" layoutY="409.0" prefHeight="186.0" prefWidth="213.0" style="-fx-background-color: F0EBD8; -fx-background-radius: 20px;">
+                     <children>
+                        <VBox prefHeight="178.0" prefWidth="214.0">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="169.0" prefWidth="214.0" text="&quot;I think that's the single best &#10;piece of advices constantly&#10;think about how you &#10;could be doing things &#10;better and questioning &#10;yourself.&quot;" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold Italic" size="13.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="BOTTOM_RIGHT" contentDisplay="RIGHT" prefHeight="22.0" prefWidth="203.0" text="-Elon Musk" />
+                           </children>
+                        </VBox>
+                     </children></Pane>
                     </children>
+
                 </Pane>
             </right>
         </BorderPane>

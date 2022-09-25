@@ -10,7 +10,7 @@
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.onenote.onenote.TodoListController">
+            fx:controller="com.onenote.onenote.NotesController">
 <top>
     <Pane prefHeight="28.0" prefWidth="988.0" style="-fx-background-color: White; -fx-alignment: center;" styleClass="Top-Pane" BorderPane.alignment="CENTER">
         <children>
