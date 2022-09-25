@@ -1,43 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import io.github.palexdev.materialfx.controls.MFXTextField?>
+<?import io.github.palexdev.materialfx.controls.MFXTreeView?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.canvas.Canvas?>
-<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ColorPicker?>
-<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Pane?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-
-<Pane  maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.onenote.onenote.WhiteboardController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.onenote.onenote.WhiteboardController">
    <children>
-      <VBox prefHeight="50.0" prefWidth="1280.0">
+      <Pane prefHeight="28.0" prefWidth="1280.0" style="-fx-background-color: White; -fx-alignment: center;" styleClass="Top-Pane">
          <children>
-            <HBox prefHeight="50.0" prefWidth="200.0">
+            <FlowPane hgap="5.0" layoutX="4.0" layoutY="5.0" prefHeight="17.0" prefWidth="67.0">
                <children>
-                  <ColorPicker fx:id="colorPicker" promptText="Choose color">
-                     <padding>
-                        <Insets left="10.0" right="10.0" />
-                     </padding>
-                     <HBox.margin>
-                        <Insets bottom="10.0" left="10.0" right="10.0" top="17.0" />
-                     </HBox.margin>
-                  </ColorPicker>
-                  <TextField fx:id="brushSize" promptText="Enter brush size">
-                     <HBox.margin>
-                        <Insets bottom="10.0" left="10.0" right="10.0" top="17.0" />
-                     </HBox.margin>
-                  </TextField>
-                  <Button fx:id="brush" mnemonicParsing="false" onAction="#brushSubmit" text="Brush">
-                     <HBox.margin>
-                        <Insets bottom="10.0" left="10.0" right="10.0" top="17.0" />
-                     </HBox.margin>
-                  </Button>
+                  <ImageView fx:id="Exit" fitHeight="17.0" fitWidth="21.0" onMouseClicked="#exitAction" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../drawable/Exit.png" />
+                     </image>
+                  </ImageView>
+                  <Label text="&lt;-Back" />
                </children>
-            </HBox>
+            </FlowPane>
+            <Label contentDisplay="CENTER" layoutX="508.0" layoutY="5.0" text="White board">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Label>
+         </children></Pane>
+
+      <MFXTreeView layoutX="304.0" layoutY="50.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="75.0" prefWidth="714.0" showRoot="false" />
+      <HBox focusTraversable="true" layoutX="304.0" layoutY="50.0" prefHeight="70.0" prefWidth="710.0">
+         <children>
+            <ImageView fx:id="blackBrush" fitHeight="70.0" fitWidth="85.0" onMouseClicked="#blackColor" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://i.ibb.co/SwzjwdQ/Screenshot-2022-09-25-163642.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets left="2.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="redBrush" fitHeight="70.0" fitWidth="85.0" onMouseClicked="#redColor" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://i.ibb.co/8DCtsXK/Screenshot-2022-09-25-164047.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets left="2.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="blueBrush" fitHeight="70.0" fitWidth="85.0" onMouseClicked="#blueColor" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://i.ibb.co/fHtXjCR/Screenshot-2022-09-25-164554.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets left="2.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="yelloBrush" fitHeight="70.0" fitWidth="85.0" onMouseClicked="#yelloColor" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://i.ibb.co/VNDLv08/Screenshot-2022-09-25-165402.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets left="2.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="clear" fitHeight="60.0" fitWidth="85.0" onMouseClicked="#clearCanva" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://i.ibb.co/WtsfsTj/Screenshot-2022-09-25-165543.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets left="2.0" top="10.0" />
+               </HBox.margin>
+            </ImageView>
+            <ColorPicker fx:id="colorPicker" prefHeight="31.0" prefWidth="143.0" promptText="Custom brush">
+               <HBox.margin>
+                  <Insets left="20.0" top="20.0" />
+               </HBox.margin>
+            </ColorPicker>
+            <MFXTextField fx:id="brushSize" floatMode="ABOVE" onAction="#brushSubmit" prefHeight="23.0" prefWidth="117.0" promptText="Brush size=10">
+               <HBox.margin>
+                  <Insets left="10.0" top="20.0" />
+               </HBox.margin>
+            </MFXTextField>
          </children>
-      </VBox>
-      <Canvas fx:id="canva" height="690.0" layoutY="53.0" width="1280.0" />
+      </HBox>
+      <Canvas fx:id="canva" cache="true" focusTraversable="true" height="744.0" layoutY="125.0" width="1280.0" />
    </children>
 </Pane>
