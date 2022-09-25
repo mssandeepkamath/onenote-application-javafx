@@ -73,6 +73,7 @@
                         </VBox>
                      </children></Pane>
                     </children>
+
                 </Pane>
             </right>
         </BorderPane>
