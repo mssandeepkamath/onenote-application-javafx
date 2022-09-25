@@ -18,7 +18,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane fx:id="window" prefHeight="400.0" prefWidth="600.0" style="-fx-border-color: BLACK;" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.onenote.onenote.Todo.Addnew">
+<BorderPane fx:id="window" prefHeight="400.0" prefWidth="600.0" style="-fx-border-color: BLACK;" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.onenote.onenote.Addnew">
     <top>
         <Pane prefHeight="32.0" prefWidth="600.0" BorderPane.alignment="CENTER">
             <children>

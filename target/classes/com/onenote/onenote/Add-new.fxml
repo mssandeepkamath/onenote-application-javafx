@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.onenote.onenote.Addnew">
+
+    <top>
+        <Pane prefHeight="32.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label layoutX="14.0" layoutY="7.0" text="New Task">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Label>
+                <FlowPane hgap="5.0" layoutX="573.0" layoutY="7.0" prefHeight="17.0" prefWidth="17.0">
+                    <children>
+                        <ImageView fx:id="Exit" fitHeight="17.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../drawable/Exit.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </FlowPane>
+            </children>
+        </Pane>
+    </top>
+    <center>
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: WHITE;" BorderPane.alignment="CENTER">
+            <children>
+                <Label layoutX="26.0" layoutY="42.0" text="Short Description" />
+                <TextField fx:id="Description" layoutX="149.0" layoutY="38.0" prefHeight="25.0" prefWidth="419.0" />
+                <Label layoutX="26.0" layoutY="128.0" text="Details" />
+                <TextArea fx:id="DetailsArea" layoutX="149.0" layoutY="79.0" prefHeight="149.0" prefWidth="421.0" wrapText="true" />
+                <DatePicker fx:id="Deadline" layoutX="148.0" layoutY="248.0" prefHeight="25.0" prefWidth="194.0" />
+                <Label layoutX="31.0" layoutY="252.0" text="Deadline" />
+                <ComboBox fx:id="Categories" layoutX="386.0" layoutY="248.0" prefHeight="25.0" prefWidth="183.0" promptText="Categories" />
+                <JFXButton buttonType="RAISED" layoutX="492.0" layoutY="319.0" onAction="#cancel" prefHeight="25.0" prefWidth="78.0" style="-fx-background-color: F2F2F2;" text="Cancel" />
+                <JFXButton buttonType="RAISED" layoutX="394.0" layoutY="319.0" prefHeight="25.0" prefWidth="78.0" style="-fx-background-color: D1E4F9;" text="OK" />
+            </children>
+        </Pane>
+    </center>
+</BorderPane>

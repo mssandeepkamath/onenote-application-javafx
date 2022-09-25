@@ -62,8 +62,6 @@ public class OtherData {
                 OtherItem OtherItem = new OtherItem(shortDescription, details, category, date);
                 OtherItems.add(OtherItem);
 
-
-
             }
 
 
