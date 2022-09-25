@@ -34,8 +34,8 @@ public class ChooserController {
         Stage window = (Stage) whiteBoardButton.getScene().getWindow();
         Parent pane = FXMLLoader.load(
                 getClass().getResource("white-board.fxml"));
-        window.setMaximized(true);
         window.setResizable(true);
+        window.setMaximized(true);
         window.getScene().setRoot(pane);
 
 
@@ -48,6 +48,8 @@ public class ChooserController {
         Parent pane = FXMLLoader.load(
                 getClass().getResource("notes.fxml"));
         window.setMaximized(true);
+        window.setResizable(true);
+
         window.getScene().setRoot(pane);
     }
 
@@ -56,6 +58,8 @@ public class ChooserController {
         Parent pane = FXMLLoader.load(
                 getClass().getResource("todo.fxml"));
         window.setMaximized(true);
+        window.setResizable(true);
+
         window.getScene().setRoot(pane);
 
 

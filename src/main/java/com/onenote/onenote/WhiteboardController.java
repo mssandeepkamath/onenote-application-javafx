@@ -8,6 +8,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.control.Button;
@@ -124,13 +125,30 @@ public class WhiteboardController implements Initializable {
             Stage window = (Stage) brushSize.getScene().getWindow();
             Parent pane = FXMLLoader.load(
                     getClass().getResource("chooser-layout.fxml"));
+            window.setMaximized(false);
             window.setResizable(false);
-            window.setHeight(400);
-            window.setWidth(600);
             window.getScene().setRoot(pane);
         }catch (IOException exception){
             System.out.println(exception.getMessage());
         }
+
+    }
+
+    public void smallAction(MouseEvent mouseEvent) {
+
+
+            Stage stage = (Stage) brushSize.getScene().getWindow();
+            stage.setIconified(true);
+
+    }
+
+    public void minAction(MouseEvent mouseEvent) {
+
+            Stage stage = (Stage) brushSize.getScene().getWindow();
+            if(stage.isMaximized())
+                stage.setMaximized(false);
+            else
+                stage.setMaximized(true);
 
 
     }

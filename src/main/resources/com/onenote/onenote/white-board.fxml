@@ -24,7 +24,16 @@
                         <Image url="@../../../drawable/Exit.png" />
                      </image>
                   </ImageView>
-                  <Label text="&lt;-Back" />
+                  <ImageView fx:id="Minimize" fitHeight="17.0" fitWidth="21.0" onMouseClicked="#smallAction" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../drawable/Minimize.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="Maximize" fitHeight="17.0" fitWidth="21.0" onMouseClicked="#minAction" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../drawable/Maximize.png" />
+                     </image>
+                  </ImageView>
                </children>
             </FlowPane>
             <Label contentDisplay="CENTER" layoutX="508.0" layoutY="5.0" text="White board">
