@@ -15,12 +15,12 @@
    <left>
       <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #32026B;" BorderPane.alignment="CENTER">
          <children>
-            <ImageView cache="true" fitHeight="117.0" fitWidth="107.0" layoutX="39.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView cache="true" fitHeight="117.0" fitWidth="119.0" layoutX="47.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="https://i.ibb.co/x8V6mw6/e-book.png" />
+                  <Image url="https://i.ibb.co/tP61NVh/notebook.png" />
                </image>
             </ImageView>
-            <Text fill="WHITE" layoutX="38.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OneNote" textAlignment="CENTER">
+            <Text fill="WHITE" layoutX="46.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OneNote" textAlignment="CENTER">
                <font>
                   <Font name="Segoe Script" size="28.0" />
                </font>

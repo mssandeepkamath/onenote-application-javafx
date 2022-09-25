@@ -21,7 +21,5 @@ public class HelloApplication extends Application {
         launch();
     }
 
-    public static class ChooserController {
 
-    }
 }

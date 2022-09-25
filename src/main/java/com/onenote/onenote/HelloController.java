@@ -27,9 +27,11 @@ public class HelloController {
 
         if(emailTextField.getText().equals("") && passwordTextField.getText().equals(""))
         {
-            Parent root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("chooser-layout.fxml")));
+
             Stage window = (Stage) ProceedButtonView.getScene().getWindow();
-            window.setScene(new Scene(root,600,400));
+            Parent pane = FXMLLoader.load(
+                    getClass().getResource("chooser-layout.fxml"));
+            window.getScene().setRoot(pane);
         }
         else
         {

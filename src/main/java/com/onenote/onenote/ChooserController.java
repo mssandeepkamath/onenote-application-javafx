@@ -16,21 +16,31 @@ public class ChooserController {
     @FXML public Button todoListButton;
 
     @FXML public void whiteBoardAction(ActionEvent actionEvent) throws IOException {
-        Parent root= FXMLLoader.load(getClass().getResource("white-board.fxml"));
         Stage window = (Stage) whiteBoardButton.getScene().getWindow();
-        window.setScene(new Scene(root,1280,720));
+        Parent pane = FXMLLoader.load(
+                getClass().getResource("white-board.fxml"));
+        window.setFullScreen(true);
+        window.getScene().setRoot(pane);
+
+
+
     }
 
     @FXML public void notesListAction(ActionEvent actionEvent) throws IOException {
-
-        Parent root= FXMLLoader.load(getClass().getResource("todo-list.fxml"));
         Stage window = (Stage) todoListButton.getScene().getWindow();
-        window.setScene(new Scene(root,1280,500));
+        Parent pane = FXMLLoader.load(
+                getClass().getResource("todo-list.fxml"));
+        window.setFullScreen(true);
+        window.getScene().setRoot(pane);
     }
 
     @FXML public void todoListAction(ActionEvent actionEvent) throws IOException {
-        Parent root= FXMLLoader.load(getClass().getResource("todo.fxml"));
         Stage window = (Stage) todoListButton.getScene().getWindow();
-        window.setScene(new Scene(root,1280,500));
+        Parent pane = FXMLLoader.load(
+                getClass().getResource("todo.fxml"));
+        window.setFullScreen(true);
+        window.getScene().setRoot(pane);
+
+
     }
 }
