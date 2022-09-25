@@ -5,97 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d713270-99b9-49a1-ad9e-f93e313c3b2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/Add-new.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/Todayy.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/notes.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Add-new.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Addnew.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TodoListItems.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TodoListItems.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TodoListOtherItems.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TodoListOtherItems.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/ChooserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/ChooserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Dashboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Data/OtherData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Data/OtherData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Data/TodoData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Data/TodoData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Todo/Addnew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Addnew.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Todo/Important.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Important.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Todo/Inbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Inbox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Todo/Someday.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Someday.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Todo/Today.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Today.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Todo/Trash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Trash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Todo/Upcomming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Upcomming.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/Addnew.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/Addnew.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/Important.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/Important.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/Inbox.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/Inbox.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/Someday.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/Someday.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/Today.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/Today.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/Trash.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/Trash.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/Upcoming.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/Upcoming.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/chooser-layout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/chooser-layout.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Addnew.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Addnew.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/ChooserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/ChooserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Dashboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Dashboard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Data/OtherData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Data/OtherData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Data/TodoData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Data/TodoData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Important.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Important.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Inbox.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Inbox.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Someday.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Someday.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Today.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Today.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Addnew.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Important$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Important$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Important$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Important$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Important$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Important$6$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Important$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Important$7$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Important$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Important.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Inbox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Someday$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Someday$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Someday$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Someday$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Someday$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Someday$6$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Someday$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Someday$7$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Someday$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Someday.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Today$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Today$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Today$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Today$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Today$5$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Today$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Today$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Today$7$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Today$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Today.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Trash$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Trash$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Trash$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Trash$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Trash$5$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Trash$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Trash$6$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Trash$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Trash.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Upcomming$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Upcomming$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Upcomming$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Upcomming$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Upcomming$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Upcomming$6$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Upcomming$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Upcomming$7$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Upcomming$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todo/Upcomming.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Trash.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Trash.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Upcoming.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Upcoming.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/chooser-layout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/chooser-layout.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Addnew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Addnew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/Inbox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/Addnew.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/Inbox.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/Todayy.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/todo.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/todo.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Addnew.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Addnew.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Addnew.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Inbox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Inbox.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/Todayy.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/todo.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/todo.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +80,7 @@
   <component name="RunManager">
     <configuration name="com.onenote.onenote.HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.onenote.onenote.HelloApplication" />
-      <module name="OneNote" />
+      <module name="OnenoteApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.onenote.onenote.*" />
