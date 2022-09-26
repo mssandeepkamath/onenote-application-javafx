@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<VBox fx:id="vbox" prefHeight="230.0" prefWidth="230.0" style="-fx-background-color: #e5f7c3; -fx-background-radius: 20px;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.onenote.onenote.NotesItemController">
-    <Label fx:id="shortDescription" alignment="CENTER" prefHeight="67.0" prefWidth="250.0" textAlignment="CENTER" wrapText="true" >
+<VBox fx:id="vbox" prefHeight="240.0" prefWidth="230.0" style="-fx-background-color: #e5f7c3; -fx-background-radius: 30px;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.onenote.onenote.NotesItemController">
+    <Label fx:id="shortDescription" alignment="CENTER" prefHeight="67.0" prefWidth="250.0" textAlignment="JUSTIFY" wrapText="true">
     <font>
         <Font name="System Bold" size="12.0" />
     </font>
+      <VBox.margin>
+         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+      </VBox.margin>
     </Label>
     <Label fx:id="Details" alignment="CENTER" prefHeight="204.0" prefWidth="230.0" textAlignment="JUSTIFY" wrapText="true">
         <font>
             <Font name="System" size="12.0" />
         </font>
+      <VBox.margin>
+         <Insets bottom="5.0" left="5.0" right="5.0" />
+      </VBox.margin>
     </Label>
 </VBox>

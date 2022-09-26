@@ -1,6 +1,5 @@
 package com.onenote.onenote;
 
-import com.onenote.onenote.Util.EventSerializer;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;

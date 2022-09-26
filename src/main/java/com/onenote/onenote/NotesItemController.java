@@ -24,18 +24,18 @@ public class NotesItemController {
         Details.setText(data.getDetails());
         if(data.getCategory().equals("Personal"))
         {
-            vbox.setStyle(" -fx-background-color:  #cafaf4;-fx-background-radius: 20px;");
+            vbox.setStyle(" -fx-background-color:  #cafaf4;-fx-background-radius: 30px;");
 
 
         }
         else if(data.getCategory().equals("Work"))
         {
-           vbox.setStyle(" -fx-background-color: #FFADC9FF;-fx-background-radius: 20px;");
+           vbox.setStyle(" -fx-background-color: #FFADC9FF;-fx-background-radius: 30px;");
 
         }
         else
         {
-            vbox.setStyle(" -fx-background-color:  #e5f7c3;-fx-background-radius: 20px;");
+            vbox.setStyle(" -fx-background-color:  #e5f7c3;-fx-background-radius: 30px;");
 
         }
 
