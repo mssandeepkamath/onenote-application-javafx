@@ -25,7 +25,7 @@ public class HelloController {
 
         Window owner=ProceedButtonView.getScene().getWindow();
 
-        if(emailTextField.getText().equals("") && passwordTextField.getText().equals(""))
+        if(emailTextField.getText().equals("admin@rvce.edu.in") && passwordTextField.getText().equals("admin"))
         {
 
             Stage window = (Stage) ProceedButtonView.getScene().getWindow();
