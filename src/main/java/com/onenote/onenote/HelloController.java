@@ -41,8 +41,4 @@ public class HelloController {
 
     }
 
-    private static class AlertHelper {
-        public static void showAlert(Alert.AlertType error, Window owner, String attention, String your_credentials_are_wrong) {
-        }
-    }
 }
