@@ -5,7 +5,7 @@ A productivity application using Java FX application with features such as white
 # Previews:
 
 ![Untitled (2160 × 1080 px)](https://user-images.githubusercontent.com/90695071/193128300-cfbb3c62-fc48-49ed-9c18-c11edb03e16b.png)
-![Untitled (2160 × 1080 px) (1)](https://user-images.githubusercontent.com/90695071/193128317-2ca319b5-209a-4ba6-a084-9976d443af13.png)
+![Untitled (2160 × 1080 px) (3)](https://user-images.githubusercontent.com/90695071/193130363-7a3442cd-ceae-47c6-944d-f8beac42d543.png)
 ![Untitled (2160 × 1080 px) (2)](https://user-images.githubusercontent.com/90695071/193128334-5984e85f-ea4c-494b-b9ff-a6beee98cba0.png)
 
 # Class diagram:
