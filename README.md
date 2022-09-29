@@ -40,7 +40,7 @@ A productivity application using Java FX application with features such as white
 
 7. Add original repository for fetch using 
 
-       git remote add upstream https://github.com/mssandeepkamath/GUI.git
+       git remote add upstream https://github.com/mssandeepkamath/OnenoteApplication.git
        
 8. Checkout to your origin main and do this for fetching latest changes from original repository.
 
