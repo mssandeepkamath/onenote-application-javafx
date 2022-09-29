@@ -1,6 +1,6 @@
 # Welcome to OneNote Java
 
-An application with the useful features of Onenote along with additional features such as todo list, whiteboard all integrated into one makes it handy for the user.
+A productivity application using Java FX application with features such as whiteboard, TODO list and Notes List.
 
 # Previews:
 
