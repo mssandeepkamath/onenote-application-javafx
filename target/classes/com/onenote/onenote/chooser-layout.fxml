@@ -12,7 +12,7 @@
    <children>
       <MFXTreeView layoutX="35.0" layoutY="134.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="211.0" prefWidth="531.0" style="-fx-background-color: #EAF6F6;" thumbHoverColor="#eaf6f6" />
 
-      <Label layoutX="120.0" layoutY="85.0" prefHeight="29.0" prefWidth="428.0" text="Welcome back!, Try our features...">
+      <Label layoutX="134.0" layoutY="90.0" prefHeight="29.0" prefWidth="336.0" text="   Welcome back to OneNote!">
          <font>
             <Font name="Modern No. 20" size="26.0" />
          </font>
@@ -31,22 +31,22 @@
             <Font name="System Bold" size="12.0" />
          </font>
       </MFXButton>
-      <ImageView fitHeight="104.0" fitWidth="103.0" layoutX="79.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="91.0" fitWidth="91.0" layoutX="79.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="https://i.ibb.co/tM1qGBB/whiteboard-1.png" />
+            <Image url="https://i.ibb.co/HpPHpwy/whiteboard-2.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="84.0" fitWidth="78.0" layoutX="268.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="91.0" fitWidth="91.0" layoutX="255.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="https://i.ibb.co/WB1TsGY/essay.png" />
+            <Image url="https://i.ibb.co/t8h9PRP/one-note.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="91.0" fitWidth="78.0" layoutX="440.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="91.0" fitWidth="91.0" layoutX="433.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="https://i.ibb.co/N3Y85z0/list.png" />
+            <Image url="https://i.ibb.co/VCCQ1Qz/tasks.png" />
          </image>
       </ImageView>
-      <MFXButton fx:id="logout" layoutX="14.0" layoutY="14.0" onAction="#logoutAction" prefHeight="33.0" prefWidth="78.0" style="-fx-background-color: #32026B;" text="Log out" textFill="WHITE">
+      <MFXButton fx:id="logout" layoutX="14.0" layoutY="14.0" onAction="#logoutAction" prefHeight="33.0" prefWidth="78.0" style="-fx-background-color: #32026B;" text="Logout" textFill="WHITE">
          <font>
             <Font name="System Bold" size="10.0" />
          </font></MFXButton>

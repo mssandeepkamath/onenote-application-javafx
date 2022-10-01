@@ -88,7 +88,10 @@
                     <Insets />
                 </opaqueInsets>
             </VBox>
+<<<<<<< HEAD
              <ListView layoutX="31.0" layoutY="343.0" prefHeight="207.0" prefWidth="200.0" style="-fx-background-color: E9E9E9;" />
+=======
+>>>>>>> 38fcd8ef8503a38d3c069fc78d5e1a88cc401a7f
              <JFXButton buttonType="RAISED" layoutX="32.0" layoutY="570.0" onAction="#Addnew" prefHeight="52.0" prefWidth="59.0" style="-fx-background-color: #4DBCFF; -fx-background-radius: 10px;" text="+" textFill="WHITE">
                  <font>
                      <Font size="24.0" />
