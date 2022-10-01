@@ -25,8 +25,6 @@ public class NotesItemController {
         if(data.getCategory().equals("Personal"))
         {
             vbox.setStyle(" -fx-background-color:  #cafaf4;-fx-background-radius: 20px;");
-
-
         }
         else if(data.getCategory().equals("Work"))
         {
