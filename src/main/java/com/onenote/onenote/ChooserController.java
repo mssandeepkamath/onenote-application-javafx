@@ -38,15 +38,12 @@ public class ChooserController {
         window.setMaximized(true);
         window.getScene().setRoot(pane);
 
-
-
-
     }
 
     @FXML public void notesListAction(ActionEvent actionEvent) throws IOException {
         Stage window = (Stage) todoListButton.getScene().getWindow();
         Parent pane = FXMLLoader.load(
-                getClass().getResource("notes.fxml"));
+                getClass().getResource("notes-new.fxml"));
         window.setMaximized(true);
         window.setResizable(true);
 

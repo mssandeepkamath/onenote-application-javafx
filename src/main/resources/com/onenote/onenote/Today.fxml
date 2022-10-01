@@ -46,7 +46,7 @@
                            </children>
                         </VBox>
                      </children></Pane>
-                        <Pane layoutX="17.0" layoutY="216.0" prefHeight="172.0" prefWidth="213.0" style="-fx-background-color: #cafaf4; -fx-background-radius: 20px;">
+                        <Pane layoutX="17.0" layoutY="216.0" prefHeight="172.0" prefWidth="213.0" style="-fx-background-color: #ffadc9; -fx-background-radius: 20px;">
                      <children>
                         <VBox prefHeight="169.0" prefWidth="214.0">
                            <children>

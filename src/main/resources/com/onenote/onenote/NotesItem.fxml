@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="vbox" prefHeight="230.0" prefWidth="230.0" style="-fx-background-color: #e5f7c3; -fx-background-radius: 20px;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.onenote.onenote.NotesItemController">
+    <Label fx:id="shortDescription" alignment="CENTER" contentDisplay="CENTER" prefHeight="67.0" prefWidth="250.0" textAlignment="CENTER" wrapText="true">
+    <font>
+        <Font name="System Bold" size="12.0" />
+    </font>
+    </Label>
+    <Label fx:id="Details" alignment="CENTER" contentDisplay="CENTER" prefHeight="204.0" prefWidth="230.0" wrapText="true">
+        <font>
+            <Font name="System" size="12.0" />
+        </font>
+    </Label>
+</VBox>

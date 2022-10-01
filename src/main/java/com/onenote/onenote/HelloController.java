@@ -25,7 +25,7 @@ public class HelloController {
 
         Window owner=ProceedButtonView.getScene().getWindow();
 
-        if(emailTextField.getText().equals("") && passwordTextField.getText().equals(""))
+        if(emailTextField.getText().equals("admin@rvce.edu.in") && passwordTextField.getText().equals("admin"))
         {
 
             Stage window = (Stage) ProceedButtonView.getScene().getWindow();
@@ -41,8 +41,4 @@ public class HelloController {
 
     }
 
-    private static class AlertHelper {
-        public static void showAlert(Alert.AlertType error, Window owner, String attention, String your_credentials_are_wrong) {
-        }
-    }
 }

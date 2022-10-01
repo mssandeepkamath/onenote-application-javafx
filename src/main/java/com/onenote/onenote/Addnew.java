@@ -167,9 +167,7 @@ public class Addnew implements Initializable {
         Deadline.getEditor().clear();
         Categories.getItems().clear();
     }
-    public void Error(){
 
-    }
 
 
 

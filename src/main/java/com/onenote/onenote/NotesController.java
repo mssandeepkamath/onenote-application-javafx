@@ -21,14 +21,14 @@ public class NotesController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
-        try {
-            var events = EventSerializer.deserialize();
-            eventListView.getItems().addAll(events);
-        }catch(Exception e)  {
-            Alert alert = new Alert(Alert.AlertType.ERROR);
-            alert.setTitle("TodoFX");
-            alert.setHeaderText("Events could not be loaded from file system");
-        }
+//        try {
+//            var events = EventSerializer.deserialize();
+//            eventListView.getItems().addAll(events);
+//        }catch(Exception e)  {
+//            Alert alert = new Alert(Alert.AlertType.ERROR);
+//            alert.setTitle("TodoFX");
+//            alert.setHeaderText("Events could not be loaded from file system");
+//        }
 
     }
 
@@ -47,5 +47,6 @@ public class NotesController implements Initializable {
 
     eventTextField.setText("");
     }
+
 
 }

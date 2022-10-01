@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="window" prefHeight="664.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.onenote.onenote.NotesListController">
+    <left>
+        <Pane prefHeight="664.0" prefWidth="262.0" style="-fx-background-color: E9E9E9;" stylesheets="../../../Style/style.css" BorderPane.alignment="CENTER">
+            <children>
+                <Pane layoutY="4.0" prefHeight="664.0" prefWidth="261.0" style="-fx-background-color: WHITE;" BorderPane.alignment="CENTER">
+                    <children>
+                        <Label layoutX="9.0" layoutY="42.0" prefHeight="25.0" prefWidth="84.0" text="Title">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+                        <TextField fx:id="Description" layoutX="8.0" layoutY="73.0" prefHeight="39.0" prefWidth="240.0" />
+                        <TextArea fx:id="DetailsArea" layoutX="9.0" layoutY="152.0" prefHeight="256.0" prefWidth="240.0" wrapText="true" />
+                        <ComboBox fx:id="Categories" layoutX="11.0" layoutY="442.0" prefHeight="39.0" prefWidth="239.0" promptText="Categories" />
+                  <Label layoutX="9.0" layoutY="127.0" prefHeight="25.0" prefWidth="84.0" text="Content">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                    </children>
+                </Pane>
+                <JFXButton buttonType="RAISED" layoutX="32.0" layoutY="570.0" onAction="#Addnew" prefHeight="52.0" prefWidth="59.0" style="-fx-background-color: #4DBCFF; -fx-background-radius: 10px;" text="+" textFill="WHITE">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                </JFXButton>
+            </children>
+        </Pane>
+    </left>
+    <top>
+        <Pane prefHeight="28.0" prefWidth="1280.0" style="-fx-background-color: White; -fx-alignment: center;" styleClass="Top-Pane">
+            <children>
+                <FlowPane hgap="5.0" layoutX="4.0" layoutY="5.0" prefHeight="17.0" prefWidth="67.0">
+                    <children>
+                        <ImageView fx:id="Exit" fitHeight="17.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../drawable/Exit.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fx:id="Minimize" fitHeight="17.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../drawable/Minimize.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fx:id="Maximize" fitHeight="17.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../drawable/Maximize.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </FlowPane>
+                <Label contentDisplay="CENTER" layoutX="609.0" layoutY="6.0" text="Notes List">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+            </children>
+        </Pane>
+
+    </top>
+    <center>
+        <ScrollPane layoutY="29.0" prefHeight="636.0" prefWidth="985.0">
+            <content>
+                <GridPane fx:id="notesGrid">
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+                    </rowConstraints>
+                </GridPane>
+            </content>
+        </ScrollPane>
+
+
+    </center>
+
+</BorderPane>
