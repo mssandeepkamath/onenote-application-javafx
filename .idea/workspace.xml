@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d713270-99b9-49a1-ad9e-f93e313c3b2a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
-
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/ChooserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/ChooserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/WhiteboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/WhiteboardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/chooser-layout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/chooser-layout.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/white-board.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/white-board.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/WhiteboardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/WhiteboardController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/chooser-layout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/chooser-layout.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/white-board.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/white-board.fxml" afterDir="false" />
-
-=======
-      <change beforePath="$PROJECT_DIR$/TodoListItems.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TodoListItems.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/NotesItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/onenote/onenote/NotesItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/NotesItem.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/NotesItem.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/notes-new.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/notes-new.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/todo.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/onenote/onenote/todo.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/NotesItem.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/NotesItem.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/NotesItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/NotesItemController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/notes-new.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/notes-new.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onenote/onenote/todo.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onenote/onenote/todo.fxml" afterDir="false" />
->>>>>>> nis/test
-    </list>
+    <list default="true" id="1d713270-99b9-49a1-ad9e-f93e313c3b2a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
