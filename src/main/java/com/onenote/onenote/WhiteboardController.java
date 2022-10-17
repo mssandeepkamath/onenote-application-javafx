@@ -33,6 +33,8 @@ public class WhiteboardController implements Initializable {
     @FXML
     public ImageView blackBrush;
     @FXML
+    public ImageView erase;
+    @FXML
     public ImageView clear;
     @FXML
     private ImageView Exit;
@@ -96,6 +98,13 @@ public class WhiteboardController implements Initializable {
     @FXML
     public void clearCanva(MouseEvent mouseEvent) {
         brushTool.clearRect(0,0,canva.getWidth(),canva.getHeight());
+    }
+
+    @FXML
+    public void eraser(MouseEvent mouseEvent)
+    {
+        colorPicker.setValue(Color.rgb(243,243,243));
+        toolSelected=true;
     }
     @FXML
     public void yelloColor(MouseEvent mouseEvent) {
