@@ -43,8 +43,8 @@
             </Label>
          </children></Pane>
 
-      <MFXTreeView layoutX="304.0" layoutY="50.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="75.0" prefWidth="714.0" showRoot="false" />
-      <HBox focusTraversable="true" layoutX="304.0" layoutY="50.0" prefHeight="70.0" prefWidth="710.0">
+      <MFXTreeView layoutX="270.0" layoutY="50.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="75.0" prefWidth="760.0" showRoot="false" />
+      <HBox focusTraversable="true" layoutX="270.0" layoutY="50.0" prefHeight="70.0" prefWidth="740.0">
          <children>
             <ImageView fx:id="blackBrush" fitHeight="70.0" fitWidth="85.0" onMouseClicked="#blackColor" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -78,7 +78,7 @@
                   <Insets left="2.0" />
                </HBox.margin>
             </ImageView>
-            <ImageView fx:id="clear" fitHeight="60.0" fitWidth="85.0" onMouseClicked="#clearCanva" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="erase" fitHeight="60.0" fitWidth="85.0" onMouseClicked="#eraser" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="https://i.ibb.co/WtsfsTj/Screenshot-2022-09-25-165543.jpg" />
                </image>
@@ -86,12 +86,19 @@
                   <Insets left="2.0" top="10.0" />
                </HBox.margin>
             </ImageView>
+            <ImageView fx:id="clear" fitHeight="40.0" fitWidth="80.0" onMouseClicked="#clearCanva" pickOnBounds="true" preserveRatio="true">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+               <image>
+                  <Image url="https://i.ibb.co/qR68SSR/delete.png" />
+               </image></ImageView>
             <ColorPicker fx:id="colorPicker" prefHeight="31.0" prefWidth="143.0" promptText="Custom brush">
                <HBox.margin>
                   <Insets left="20.0" top="20.0" />
                </HBox.margin>
             </ColorPicker>
-            <MFXTextField fx:id="brushSize" floatMode="ABOVE" onAction="#brushSubmit" prefHeight="23.0" prefWidth="117.0" promptText="Brush size=10">
+            <MFXTextField fx:id="brushSize" floatMode="ABOVE" onAction="#brushSubmit" prefHeight="23.0" prefWidth="117.0" promptText="Size=10">
                <HBox.margin>
                   <Insets left="10.0" top="20.0" />
                </HBox.margin>
