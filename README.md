@@ -12,7 +12,31 @@ A productivity application using Java FX application with features such as white
 
 ![OneNoteClassDiagram](https://user-images.githubusercontent.com/90695071/193128414-47416069-f465-4f41-9619-c9c952a801df.png)
 
+
+
 ## Usage:
+
+
+
+Checkout the folder out/artifacts/OneNote_jar for Jar file of the project.
+
+>Important:
+
+Make sure that you download the javafx sdk and from https://gluonhq.com/products/javafx/ and paste the javafx-sdk-19 folder to C:\Program Files\Java folder of your system.
+
+>How to run:
+
+Copy the jar file to your desktop and double click on it.
+
+or
+
+Go to cmd and run this command
+
+              java -jar <path_of_the_jar_file>
+
+If getting error raise a issue!.
+
+ **OR**
 
 1.Clone the project directly into your INTELLIJ IDEA IDE using url: https://github.com/mssandeepkamath/OnenoteApplication.git or Download the zip file and open it in your IDE.
 
